@@ -3,25 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Budget-Landing-Page</title>
+  <link href = "style.css"  type="text/css" rel="stylesheet">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 <body>
-  <header>
-    <h1> Budge </h1>
-    <h2> Smarter budget management </h2>
-    <navigation>
-      <ul>
-        <li> Budget </li>
-        <li> Coupons </li>
-      </ul>
-    </navigation>
-  </header>
-
   <main>
-    <section>
-      Graph
+    <header class = "header">
+      <h1>
+        <a href="budget-main.html"> Budget </a>
+      </h1>
+      <h2> Smarter budget management </h2>
+      <navigation class = "navigation">
+        <ul>
+          <li>
+            <a href="budget-main.html"> Budget </a>
+          </li>
+          <li>
+            <a href="coupon-main.html"> Coupon </a>
+          </li>
+        </ul>
+      </navigation>
+    </header>
+    <section id = "graph-view">
+      <h3>Spending breakdown</h3>
     </section>
-    <section>
-      Raw data
+    <section id = "data-view">
+      <h3>Raw data</h3>
     </section>
   </main>
 </body>

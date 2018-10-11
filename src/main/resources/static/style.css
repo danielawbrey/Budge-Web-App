@@ -1,0 +1,50 @@
+body {
+  background-color: lightgray;
+}
+
+.header {
+  background-color: plum;
+  text-align: center;
+}
+
+h1 {
+  padding: 1%;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.navigation {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: darkred;
+  text-decoration-line: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1%;
+}
+
+main {
+  background-color: darkgray;
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
