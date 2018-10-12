@@ -1,5 +1,6 @@
 body {
   background-color: lightgray;
+  font-family: sans-serif, Verdana, Geneva;
 }
 
 .header {
@@ -7,8 +8,9 @@ body {
   text-align: center;
 }
 
+
 h1 {
-  padding: 1%;
+  padding: 0;
   font-size: 22px;
 }
 
@@ -22,23 +24,33 @@ h3 {
 
 .navigation {
   text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: darkred;
-  text-decoration-line: none;
+  font-size: 20px;
 }
 
 ul {
+  background-color: darkred;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
   padding: 0;
 }
 
 li {
   list-style-type: none;
+  padding: 10px;
   display: inline-block;
-  padding: 1%;
+}
+
+li a {
+  display: inline-block;
+  padding-left: 10%;
+}
+
+li img {
+  padding-top: 2px;
 }
 
 main {
@@ -47,4 +59,8 @@ main {
   text-align: center;
   display: block;
   margin: auto;
+}
+
+img {
+  padding-top: 0px;
 }
