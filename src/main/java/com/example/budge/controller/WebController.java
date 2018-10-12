@@ -13,6 +13,6 @@ public class WebController {
 
         @RequestMapping("/coupon")
         public String getCouponPage() {
-            return "budget-main.html";
+            return "coupon-main.html";
         }
 }
