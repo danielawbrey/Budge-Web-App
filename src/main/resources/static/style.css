@@ -1,10 +1,10 @@
 body {
-  background-color: lightgray;
-  font-family: sans-serif, Verdana, Geneva;
+  background-color: ghostwhite;
+  font-family: Tahoma, sans-serif, Verdana, Geneva;
 }
 
 .header {
-  background-color: plum;
+  background-color: ghostwhite;
   text-align: center;
 }
 
@@ -15,7 +15,8 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 17px;
+  font-family: Tahoma, Helvetica;
 }
 
 h3 {
@@ -54,7 +55,7 @@ li img {
 }
 
 main {
-  background-color: darkgray;
+  background-color: lightgray;
   width: 80%;
   text-align: center;
   display: block;
@@ -63,4 +64,8 @@ main {
 
 img {
   padding-top: 0px;
+}
+
+.map {
+  text-align: center;
 }
