@@ -11,8 +11,10 @@
 <body>
 <main>
   <header class = "header">
-    <a href="budget-main.html"> <img src = "Header.png">  </a>
-    <h2> Spend smarter. </h2>
+    <a href="budget-main.html">
+      <img src = "Header.png" height = "100" width="200">
+    </a>
+    <h2> Smarter budget management </h2>
     <nav class = "navigation">
       <ul>
         <li>
@@ -38,7 +40,7 @@
   </section>
   <section>
     <h3> Map View </h3>
-      <div id = 'map' style = 'width: 1000px; height: 700px;'></div>
+      <div id = "map" style = 'display: block; text-align: center; margin: auto; width: 500px; height: 500px;'></div>
       <script>
           mapboxgl.accessToken = 'pk.eyJ1IjoiaGZhamFyZG8iLCJhIjoiY2ptdGZhNGVoMDAyNjNwbGkzZTBqbnN0eCJ9.x8hCt8uDrhLWncxC7Lz9tA';
           var map = new mapboxgl.Map({

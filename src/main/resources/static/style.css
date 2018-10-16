@@ -4,10 +4,15 @@ body {
 }
 
 .header {
-  background-color: ghostwhite;
+  background-color: lightpink;
   text-align: center;
 }
 
+.mapboxgl-canvas {
+  height: 10%;
+  width: 10%;
+  display: block;
+}
 
 h1 {
   padding: 0;

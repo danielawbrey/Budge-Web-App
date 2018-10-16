@@ -9,8 +9,10 @@
 <body>
   <main>
     <header class = "header">
-      <a href="budget-main.html"> <img src = "Header.png">  </a>
-      <h2> Spend smarter. </h2>
+      <a href="budget-main.html">
+        <img src = "Header.png" height = "100" width="200">
+      </a>
+      <h2> Smarter budget management </h2>
       <nav class = "navigation">
         <ul>
           <li>
@@ -32,7 +34,57 @@
       </nav>
     </header>
     <section id = "settings-options">
+
       <h3>Settings</h3>
+
+      <div class="budget-dropdown">
+        <button onclick="myFunction()" class="dropbtn">Adjust budget</button>
+        <div class ="myDropdown" class="dropdown-content">
+          <a href="#">Daily</a>
+          <a href="#">Weekly</a>
+          <a href="#">Monthly</a>
+        </div>
+      </div>
+
+      <div class="savings-dropdown">
+        <button onclick="myFunction()" class="dropbtn">Adjust savings goals</button>
+        <div class ="myDropdown" class="dropdown-content">
+          <a href="#">Daily</a>
+          <a href="#">Weekly</a>
+          <a href="#">Monthly</a>
+        </div>
+      </div>
+
+      <div class="categorization-dropdown">
+        <button onclick="myFunction()" class="dropbtn">Categorize</button>
+        <div class="myDropdown" class="dropdown-content">
+          <a href="#">Alphabetically</a>
+          <a href="#">Most recent</a>
+          <a href="#">Ascending price</a>
+          <a href="#">Descending price</a>
+        </div>
+      </div>
+
+      <form id = "Promo-checkbox" method="get">
+        <input type="checkbox" name="promos" value="True"> Suggest promotions <br>
+      </form>
+
+      <form id = "GPS-checkbox" method="get">
+        <input type="checkbox" name="location" value="True"> GPS location <br>
+      </form>
+
+      <form id = "Flyer-checkbox" method="get">
+        <input type="checkbox" name="Flyer notification" value="True"> Send flyers <br>
+      </form>
+
+      <div class="Account-adder">
+        <h3> Add account </h3>
+      </div>
+
+      <div class="Reset-pass">
+        <h3> Reset password </h3>
+      </div>
+
     </section>
   </main>
 </body>
