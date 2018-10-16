@@ -2,25 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Budget-Landing-Page</title>
+  <title> Budge </title>
   <link href = "style.css"  type="text/css" rel="stylesheet">
   <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
 <main>
   <header class = "header">
     <a href="budget-main.html"> <img src = "Header.png">  </a>
-    <h2> Smarter budget management </h2>
+    <h2> Spend smarter. </h2>
     <nav class = "navigation">
       <ul>
         <li>
           <a href="budget-main.html">
-            Budget
+            Home
           </a>
         </li>
         <li>
           <a href="coupon-main.html">
-            Coupon
+            Coupons
           </a>
         </li>
         <li>
@@ -32,10 +34,20 @@
     </nav>
   </header>
   <section>
-    <h3>Coupon offers</h3>
+    <h3>Coupon Offers</h3>
   </section>
   <section>
-    <h3> Map view </h3>
+    <h3> Map View </h3>
+      <div id = 'map' style = 'width: 1000px; height: 700px;'></div>
+      <script>
+          mapboxgl.accessToken = 'pk.eyJ1IjoiaGZhamFyZG8iLCJhIjoiY2ptdGZhNGVoMDAyNjNwbGkzZTBqbnN0eCJ9.x8hCt8uDrhLWncxC7Lz9tA';
+          var map = new mapboxgl.Map({
+              container: 'map',
+              style: 'mapbox://styles/mapbox/streets-v10',
+              center: [-118.511,34.253], //CSUN area
+              zoom: 14
+          });
+      </script>
   </section>
 </main>
 </body>
