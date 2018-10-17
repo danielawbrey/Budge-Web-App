@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <title> Budge </title>
   <link href = "style.css"  type="text/css" rel="stylesheet">
-  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <link href="piechart/piechart.css" rel="stylesheet">
+  <script src="piechart/piechart.js"></script>
 </head>
 <body>
   <main>
     <header class = "header">
       <a href="budget-main.html">
-        <img src = "Header.png" height = "100" width="200">
+        <img src = "img/Header.png" height = "100" width="200">
       </a>
       <h2> Smarter budget management </h2>
       <nav class = "navigation">
@@ -27,7 +29,7 @@
           </li>
           <li>
             <a href="settings.html">
-              <img src = "settings%20.png" height="20" width="20">
+              <img src = "img/settings%20.png" height="20" width="20">
             </a>
           </li>
         </ul>
@@ -35,9 +37,55 @@
     </header>
     <section id = "graph-view">
       <h3>Spending Breakdown</h3>
+      <div id="content">
+        <div class="framework-container">
+          <div class="example" onpagenavigation id="demo"></div>
+        </div>
+      </div>
     </section>
     <section id = "data-view">
-      <h3>Raw Data</h3>
+      <h3>Recent transactions</h3>
+      <table class = "transaction-details">
+        <tr>
+          <th>Transaction Categories</th>
+        </tr>
+        <tr>
+          <td class = "utilities">
+            <img src = "img/light-bulb.png" height = "20" width="20">
+            Utilities
+          </td>
+        </tr>
+        <tr>
+          <td class = "groceries">
+            <img src = "img/groceries.png" height = "20" width="20">
+            Groceries
+          </td>
+        </tr>
+        <tr>
+          <td class = "transportation">
+            <img src = "img/car.png" height = "20" width="20">
+            Transportation
+          </td>
+        </tr>
+        <tr>
+          <td class = "entertainment">
+            <img src = "img/spotlights.png" height = "20" width="20">
+            Entertainment
+          </td>
+        </tr>
+        <tr>
+          <td class = "dining">
+            <img src = "img/dinner-table.png" height = "20" width="20">
+            Dining
+          </td>
+        </tr>
+        <tr>
+          <td class = "rent">
+            <img src = "img/house.png" height = "20" width="20">
+            Online shopping
+          </td>
+        </tr>
+      </table>
     </section>
   </main>
 </body>
