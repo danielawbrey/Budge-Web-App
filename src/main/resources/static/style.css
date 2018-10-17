@@ -8,6 +8,32 @@ body {
   text-align: center;
 }
 
+table {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  border: 3px solid black;
+}
+
+.coupon-offers {
+  border-spacing:0; /* Removes the cell spacing via CSS */
+  border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+}
+
+th {
+  background-color: #6d6d6d;
+  border: 1px solid black;
+}
+
+tr td {
+  background-color: #b5b5b5;
+  border: 1px solid black;
+}
+
+.coupon-offers tr:hover td {
+  background-color: yellow;
+}
+
 .mapboxgl-canvas {
   height: 10%;
   width: 10%;
