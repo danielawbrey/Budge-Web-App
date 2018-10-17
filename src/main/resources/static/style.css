@@ -30,6 +30,11 @@ tr td {
   border: 1px solid black;
 }
 
+td img {
+  float: left;
+  margin-left: 1%;
+}
+
 .coupon-offers tr:hover td {
   background-color: yellow;
 }
