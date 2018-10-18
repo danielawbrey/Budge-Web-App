@@ -22,7 +22,7 @@ table {
 }
 
 .transaction-details {
-  width: 20%;
+  width: 50%;
 }
 
 th {
@@ -78,6 +78,10 @@ td img {
   height: 10%;
   width: 10%;
   display: block;
+}
+
+.slide-container-row {
+  background-color: slategray;
 }
 
 h1 {
@@ -211,7 +215,7 @@ ul {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: lightpink;}
+.dropdown:hover .dropbtn {background-color: yellow;}
 
 .settings td {
   background-color: #b5b5b5;
