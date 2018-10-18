@@ -1,13 +1,13 @@
 var ci = -1;
 $(document).ready(function() {
 	$(".example").piechart([
-		["Country", "M inhabitants"],
-		["Dining", 1360, 'blue'],
-		["Utilities", 1234],
-		["Groceries", 316],
-		["Transportation", 237],
-		["Entertainment", 201],
-		["Rent", 201]
+		["Country", "dollars spent"],
+		["Dining", 136.00, 'blue'],
+		["Utilities", 123.46],
+		["Groceries", 213.16],
+		["Transportation", 300.75],
+		["Entertainment", 150.13],
+		["Rent", 1500.00]
 
 		]);
 	$(".piechart-flatmin").on('mouseenter','.sector-s',hoverState);
