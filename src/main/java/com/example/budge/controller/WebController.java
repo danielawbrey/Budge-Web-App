@@ -15,4 +15,9 @@ public class WebController {
         public String getCouponPage() {
             return "coupon-main.html";
         }
+
+        @RequestMapping("/login")
+        public String getLoginPage() {
+        return "login.html";
+    }
 }
