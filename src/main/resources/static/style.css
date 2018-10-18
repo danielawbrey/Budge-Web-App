@@ -43,11 +43,11 @@ td img {
 }
 
 .groceries {
-  background-color: green;
+  background-color: mediumpurple;
 }
 
 .dining {
-  background-color: purple;
+  background-color: royalblue;
 }
 
 .transportation {
@@ -55,11 +55,11 @@ td img {
 }
 
 .utilities {
-  background-color: darkorange;
+  background-color: lightblue;
 }
 
 .rent {
-  background-color: greenyellow;
+  background-color: darkslategray;
 }
 
 .entertainment {
@@ -67,11 +67,11 @@ td img {
 }
 
 .coupon-offers tr:hover td {
-  background-color: yellow;
+  background-color: lightpink;
 }
 
 .transaction-details tr:hover td {
-  background-color: yellow;
+  background-color: lightpink;
 }
 
 .mapboxgl-canvas {
@@ -95,6 +95,7 @@ h2 {
 
 h3 {
   font-size: 18px;
+  font-family: Arial;
 }
 
 .navigation {
@@ -212,10 +213,10 @@ ul {
 .dropdown-content a:hover {background-color: #ddd;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; left: 38%; right: auto; text-align: center;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: yellow;}
+.dropdown:hover .dropbtn {background-color: lightpink;}
 
 .settings td {
   background-color: #b5b5b5;
@@ -223,4 +224,9 @@ ul {
 
 .setting {
   height: 49px;
+}
+
+.login {
+  border: 1px solid black;
+  text-align: center;
 }

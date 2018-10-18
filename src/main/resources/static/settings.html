@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> Budge </title>
+  <title> Budge | Settings </title>
   <link href="style.css" type="text/css" rel="stylesheet">
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
@@ -32,7 +32,7 @@
     <a href="budget-main.html">
       <img src="img/Header.png" height="100" width="200">
     </a>
-    <h2> Smarter budget management </h2>
+    <h2> Smarter Budget Management </h2>
     <nav class="navigation">
       <ul>
         <li>
@@ -54,12 +54,12 @@
     </nav>
   </header>
   <section id="settings-options">
-    <h3>Settings</h3>
+    <br><h3>Settings</h3><br>
     <table class="settings">
       <tr class = "setting">
         <td>
           <div class="dropdown">
-            <button class="dropbtn">Adjust budget</button>
+            <button class="dropbtn">Adjust budget timeline...</button>
             <div class="dropdown-content">
               <a href="#">Daily</a>
               <a href="#">Weekly</a>
@@ -71,7 +71,7 @@
       <tr class = "setting">
         <td>
           <div class="dropdown">
-            <button class="dropbtn">Adjust savings goals</button>
+            <button class="dropbtn">Adjust savings goals timeline...</button>
             <div class="dropdown-content">
               <a href="#">Daily</a>
               <a href="#">Weekly</a>
@@ -83,7 +83,7 @@
       <tr class = "setting">
         <td>
           <div class="dropdown">
-            <button class="dropbtn">Categorize</button>
+            <button class="dropbtn">Sort...</button>
             <div class="dropdown-content">
               <a href="#">Alphabetically</a>
               <a href="#">Most recent</a>
@@ -96,25 +96,30 @@
       <tr class = "setting">
         <td>
           <form id = "Flyer-checkbox" method="get">
-            <input type="checkbox" name="Flyer notification" value="True"> Send flyers <br>
+            <input type="checkbox" name="Flyer notification" value="True"> Flyer Notifications <br>
           </form>
         </td>
       </tr>
       <tr class = "setting">
         <td>
           <form id = "GPS-checkbox" method="get">
-            <input type="checkbox" name="location" value="True"> GPS location <br>
+            <input type="checkbox" name="location" value="True"> GPS Location <br>
           </form>
         </td>
       </tr>
       <tr class = "setting">
         <td>
           <form id = "Promo-checkbox" method="get">
-            <input type="checkbox" name="promos" value="True"> Suggest promotions <br>
+            <input type="checkbox" name="promos" value="True"> Suggest Promotions <br>
           </form>
         </td>
       </tr>
-    </table>
+      <tr class = "setting">
+        <td><a href="login.html" style="color:black">
+          Log out</a>
+        </td>
+      </tr>
+    </table><br>
   </section>
 </main>
 </body>
